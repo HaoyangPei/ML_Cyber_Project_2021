@@ -50,7 +50,12 @@ Repaired models for backdoor attacks on face recognition can be found in the [li
 Repaired models are also stored in the fine_pruned_model/ directory on this repo.
 ## 3.Evaluation
 1. Evaluation script can be found in the following [link](https://drive.google.com/drive/folders/1IP82wqKbl8LgidMKMqcUXbfg67_j1mWS?usp=sharing)
-2. You can run evaluation script using the command: python [script path] --img_path [img_path] --bd_model_path [badnets_path] --pruned_model_path [fine_pruned_model path]. For exmaple, python /content/ML_Cyber_Project_2021/eval/eval_sunglasses.py --img_path /content/img.jpeg --bd_model_path /content/ML_Cyber_Project_2021/bd_model/sunglasses_bd_net.h5 --pruned_model_path /content/ML_Cyber_Project_2021/fine_pruned_model/sunglasses_bd_model_pruned.h5
-3. For simplicity, you can directly run the goodmodel_reference.ipynb on [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1fVKeSfyWNd1JXSxkyk1MoIQgqifftZld?usp=sharing) following the code in the notebook.
+2. You can run evaluation script using the command: 
+```
+python [script path] --img_path [img_path] --bd_model_path [badnets_path] --pruned_model_path [fine_pruned_model path]. 
+```
+For exmaple,```
+python /content/ML_Cyber_Project_2021/eval/eval_sunglasses.py --img_path /content/img.jpeg --bd_model_path /content/ML_Cyber_Project_2021/bd_model/sunglasses_bd_net.h5 --pruned_model_path /content/ML_Cyber_Project_2021/fine_pruned_model/sunglasses_bd_model_pruned.h5```
+4. For simplicity, you can directly run the goodmodel_reference.ipynb on [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1fVKeSfyWNd1JXSxkyk1MoIQgqifftZld?usp=sharing) following the code in the notebook.
 ## 4.Project report
 Project report are stored in this repo. You can read it for reference.
