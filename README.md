@@ -39,7 +39,7 @@
     └── asr_multi_trigger_multi_target.csv
     └── combined_metrics.csv
 ├── Project_Final_Report__ECE_9383_.pdf //project report
-├── ML_Cyber_Project.ipynb //source code of all experiment
+├── ML_Cyber_Project.ipynb //source code of all experiments
 ├── goodmodel_reference.ipynb //example reference code for our GoodNets
 ```
 ## 1. Dataset
